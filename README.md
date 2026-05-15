@@ -94,11 +94,3 @@ Supported providers:
         |-- text_utils.py
         `-- vector_store.py
 ```
-
-## Resume Talking Points
-
-- Designed a multi-agent literature review assistant to explore agent coordination, retrieval, critique, and report generation.
-- Integrated arXiv and Semantic Scholar APIs with deduplication, ranking, and evidence-grounded reporting.
-- Built a critic agent to flag unsupported claims, missing metadata, and low evidence coverage.
-- Implemented a local vector store for semantic-ish abstract retrieval using TF-IDF, with no external database required.
-- Added optional Azure OpenAI/OpenAI support while preserving offline fallback behavior.
