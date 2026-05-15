@@ -1,0 +1,8 @@
+streamlit>=1.36.0,<1.57.0
+starlette>=0.40.0,<0.42.0
+requests>=2.32.0
+python-dotenv>=1.0.1
+pandas>=2.2.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+pypdf>=4.2.0
