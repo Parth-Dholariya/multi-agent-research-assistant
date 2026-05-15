@@ -2,9 +2,9 @@
 
 A Streamlit app that coordinates specialized research agents to search academic sources, summarize papers, critique evidence quality, and generate a literature review report.
 
-## Why This Project Fits Microsoft
+## Learning Purpose
 
-Microsoft is investing heavily in AI agents, Copilot workflows, and productivity automation. This project mirrors that direction by turning a manual research workflow into a coordinated multi-agent system:
+This project is built for learning how multi-agent AI workflows can turn a manual research process into a coordinated system:
 
 - **Search Agent** finds papers from arXiv and Semantic Scholar.
 - **Summarizer Agent** creates grounded summaries from title, abstract, and metadata.
@@ -97,7 +97,7 @@ Supported providers:
 
 ## Resume Talking Points
 
-- Designed a multi-agent literature review assistant inspired by Microsoft Copilot productivity workflows.
+- Designed a multi-agent literature review assistant to explore agent coordination, retrieval, critique, and report generation.
 - Integrated arXiv and Semantic Scholar APIs with deduplication, ranking, and evidence-grounded reporting.
 - Built a critic agent to flag unsupported claims, missing metadata, and low evidence coverage.
 - Implemented a local vector store for semantic-ish abstract retrieval using TF-IDF, with no external database required.
